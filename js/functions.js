@@ -93,7 +93,7 @@ function startHeartAnimation() {
 })(jQuery);
 
 function timeElapse(date){
-	date = '2018-07-26 20:29:22';
+	date = '2019-06-26 12:00:00';
 	var current = Date();
 	var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
 	var days = Math.floor(seconds / (3600 * 24));
